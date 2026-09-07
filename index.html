@@ -425,6 +425,23 @@
             font-size: 0.85rem;
         }
 
+        .credits {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px dashed var(--secondary);
+            font-size: 0.8rem;
+        }
+        .credits a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition);
+        }
+        .credits a:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
         /* MOBILE NAV FALLBACK */
         .mobile-modes {
             display: none;
@@ -572,6 +589,11 @@
         <p><strong>Laughing Is the Best Medicine</strong></p>
         <p style="margin-bottom: 0.5rem;">For entertainment only. Not medical advice. Please don't diagnose yourself with our jokes.</p>
         <p>&copy; <span id="year"></span>. All rights reserved.</p>
+        <div class="credits">
+            Made by Sanidhya &bull; 
+            <a href="mailto:iamsanidhya.720@gmail.com">Email</a> &bull; 
+            <a href="https://www.instagram.com/notbtguy" target="_blank" rel="noopener noreferrer">Instagram</a>
+        </div>
     </footer>
 
     <!-- CABINET MODAL -->
